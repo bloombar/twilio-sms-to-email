@@ -22,6 +22,7 @@ const server = () => {
   }
 
   app.use("/static", express.static("public")) // make 'public' directory publicly readable
+
   app.use("/favicon.ico", express.static("public/favicon.ico")) // serve up favicon
 
   // load routes, passing relevant configuration settings as necessary
