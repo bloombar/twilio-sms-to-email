@@ -1,0 +1,11 @@
+{
+  "name": "JS ENV",
+  "dockerFile": "Dockerfile",
+  "appPort": [3000],
+  "runArgs": ["-u", "node"],
+  "settings": {
+    "workbench.colorTheme": "Cobalt2",
+  },
+  "postCreateCommand": "npm install",
+  "extensions": ["rvest.vs-code-prettier-eslint", "wesbos.theme-cobalt2"]
+}
